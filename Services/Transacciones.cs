@@ -29,8 +29,8 @@ namespace Examen.Services
 
         public void Agregar(Cliente c)
         {
-            ultimoId++;
-            c.id = ultimoId;
+            // ultimoId++;
+            // c.id = ultimoId;
             clientes.Add(c);
         }
 
